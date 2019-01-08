@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+#wrapp {
+  width: 90%;
+  margin: 0 auto; }
+
+.box {
+  width: 500px;
+  margin: 0 auto; }
+  .box img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: left;
+    -webkit-shape-outside: circle();
+    shape-outside: circle();
+    margin-right: 45px; }
